@@ -93,7 +93,7 @@
 .image img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 10px;
   display: block;
   background-color: #9ddcf7;
 }
