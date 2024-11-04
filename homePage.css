@@ -54,7 +54,7 @@
   padding: 100px;
   text-transform: uppercase;
   opacity: 0;
-  animation: slideInRight 2s forwards;
+  animation: slideInRight 4s forwards;
 }
 
 @keyframes slideInRight {
