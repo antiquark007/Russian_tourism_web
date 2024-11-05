@@ -103,6 +103,7 @@
     align-items: center;
     width: 100vw;
     height: 80vh;
+      background-image: url('assets/background_content_2.jpg');
 }
 
 .slideshow-container {
@@ -128,6 +129,9 @@
     opacity: 0;
     transition: opacity 1s ease;
     border-radius: 10px;
+    background-color: #9ddcf7;
+    /* background-image: url('assets/background_content_2.jpg');
+    background-repeat: no-repeat; */
 }
 
 .slideshow-img.active {

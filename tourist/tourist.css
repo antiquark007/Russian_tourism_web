@@ -7,7 +7,7 @@
 
 
 body {
-    background: url('red-square-1024x682.jpg') no-repeat center center fixed;
+    background: url('assets/red-square-1024x682.jpg') no-repeat center center fixed;
     background-size: 100% ;
     color: #333;
 }
