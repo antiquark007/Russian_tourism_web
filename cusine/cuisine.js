@@ -1,25 +1,10 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll(".image img");
-
-    function animateOnScroll() {
-        images.forEach((element) => {
-            const imagePosition = element.getBoundingClientRect().top;
-            const windowHeight = window.innerHeight;
-            if (imagePosition < windowHeight - 50) {
-                element.classList.add("animate");
-            }
-        });
-    }
-
-    window.addEventListener("scroll", animateOnScroll);
-    animateOnScroll();
-});
 function initSlideshow(slideshowContainer) {
     const slides = slideshowContainer.getElementsByClassName("slideshow-img");
     let slideIndex = 0;
 
 
     function showSlides() {
+        // Hide all slides
         for (let i = 0; i < slides.length; i++) {
             slides[i].classList.remove("active");
         }
@@ -27,7 +12,7 @@ function initSlideshow(slideshowContainer) {
 
         slideIndex++;
         if (slideIndex >= slides.length) {
-            slideIndex = 0;
+            slideIndex = 0; // Reset to the first slide
         }
 
 

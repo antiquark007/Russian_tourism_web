@@ -96,6 +96,14 @@
   border-radius: 10px;
   display: block;
   background-color: #9ddcf7;
+  transform: translateY(100%);
+  opacity: 1;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.image img.animate {
+  transform: translateY(0);
+  opacity: 1;
 }
 .container-3 {
     display: flex;
