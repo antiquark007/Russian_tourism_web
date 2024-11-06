@@ -40,6 +40,12 @@ function initSlideshow(slideshowContainer) {
 
     showSlides();
 }
+window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("message").classList.add("visible");
+    }, 3000);
+  });
+  
 
 
 document.addEventListener("DOMContentLoaded", () => {
