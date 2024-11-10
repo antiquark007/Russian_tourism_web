@@ -129,7 +129,7 @@
   background-color: var(--background-light);
   color: var(--text-color);
   padding: var(--spacing-standard);
-  font-size: 1.2em;
+  font-size: 1.2em; 
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -162,6 +162,7 @@
   align-items: center;
   justify-content: center;
   margin: auto;
+  text-align: center;
 }
 
 .slideshow-img {
