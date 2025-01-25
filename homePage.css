@@ -50,13 +50,12 @@
   width: 0;
   height: 1px;
   background-color: white;
-  transition: width var(--transition-standard);
+  transition: width 0.3s ease-in-out;
 }
 
 .nav-item a:hover::after {
   width: 100%;
 }
-
 /* Containers */
 .container {
   width: 100%;
